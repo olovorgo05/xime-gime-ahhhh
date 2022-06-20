@@ -1,0 +1,168 @@
+*{
+
+    margin: 0px;
+}
+.corregir{
+font-size: 200px;
+}
+
+
+.portada{
+    background-image: url(fondo.jpg);
+    background-size:100%;
+    display: flex;
+    margin-top: 14%;
+
+
+
+}
+
+
+
+.principal{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(117, 192, 206);
+    text-align: center;
+}
+.principal__titulo{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.principal__parrafo{
+    font-size: 40px;
+}
+.principal__boton{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: linear-gradient(rgb(84, 226, 245),rgba(100, 108, 177, 0.979));
+    color: rgb(39, 132, 139);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+/*pagina proyectos*/
+.redes_sociales{
+    color: rgb(93, 150, 78);
+    background-color:#814f2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+
+}
+.redes_sociales_logo{
+    height: 60px;
+}
+
+.menu{
+    background-color: #a87c53;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_logo{
+    height: 70px;
+}
+.menu_lista{
+    display: flex;
+    
+}
+.menu_lista_elemento{
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    list-style: none;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+
+.menu_lista_link:link{
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 240, 247);
+    font-family: cursive;
+}
+
+.main{
+    display: flex ;
+    align-items:center;
+    background-color: #99674a;
+}
+
+.main_imagen{
+    height: 380px;
+    margin: 100px;
+
+}
+.main_main{
+    text-align:center;
+    margin: 10px;
+    
+}
+.main_boton{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: linear-gradient(rgb(192, 126, 51),rgba(194, 112, 101, 0.979));
+    color: black;
+    font-size: 20px;
+    border-radius: 00px;
+    cursor: pointer;
+    
+}
+
+
+/*ACERCA DE MI*/
+.main_acerca_de_mi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.foto_yo{
+    height: 250px;
+    margin-right: 100px;
+}
+/* rejilla de proyectos */
+.cards_y{
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px;
+}
+.cards_x{
+    border: 3px solid rgb(163, 85, 75);
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 10px 50px;
+}
+.cards_x_img{
+    margin: 10px;
+}
+.cards_x_text{
+    margin: 10px;
+}
+.cards_x_boton{
+    margin: 10px;
+}
+.main_foto{
+    height: 400px;
+    margin: 100px;}
